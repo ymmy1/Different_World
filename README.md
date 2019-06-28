@@ -1,4 +1,4 @@
-# [Different_World](https://ymmy1.github.io/Different_World/)
+# [Different World](https://ymmy1.github.io/Different_World/)
 *The web-page to make the world that you live in cleaner!*
 
 ## Description
