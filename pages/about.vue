@@ -29,8 +29,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="https://www.w3schools.com/bootstrap4/ny.jpg
-" alt="New York" width="1100" height="500">
+            <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="1100" height="500">
             <div class="carousel-caption">
               <h3>New York</h3>
               <p>We love the Big Apple!</p>
