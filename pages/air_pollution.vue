@@ -72,5 +72,44 @@ export default {
 }
 
 </script>
-<style scoped>
+<style lang="scss" scoped>
+.row {
+  width: 70%;
+  margin: 0 auto;
+
+  .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+  }
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+
+  .btn-primary {
+    a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+  }
+}
+
+video {
+  width: 70%;
+}
+
+.movie-poster {
+  width: 50%;
+}
+
 </style>

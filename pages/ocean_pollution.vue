@@ -72,7 +72,7 @@ export default {
 }
 
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .row {
   width: 70%;
   margin: 0 auto;
@@ -113,3 +113,4 @@ video {
 }
 
 </style>
+

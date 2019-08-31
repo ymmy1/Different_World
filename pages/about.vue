@@ -4,55 +4,20 @@
       <h1 slot="header">{{ mainmsg }}</h1>
       <p slot="subtitle">{{ titlemsg }}</p>
     </my-header>
-    <section class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    </section>
-    <section class="slider">
-      <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-          <li data-target="#demo" data-slide-to="0" class="active"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://www.w3schools.com/bootstrap4/la.jpg" alt="Los Angeles" width="1100" height="500">
-            <div class="carousel-caption">
-              <h3>Los Angeles</h3>
-              <p>We had such a great time in LA!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" width="1100" height="500">
-            <div class="carousel-caption">
-              <h3>Chicago</h3>
-              <p>Thank you, Chicago!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" width="1100" height="500">
-            <div class="carousel-caption">
-              <h3>New York</h3>
-              <p>We love the Big Apple!</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
+    <section>
+      <div class="box">
+        <nuxt-link class="nav_link" to="/">
+          <h2>Different World</h2>
+        </nuxt-link>
+        <p>*The web-page to make the world that you live in cleaner!*</p>
+        <h3>Description</h3>
+        <p>The topic of my website is air & ocean pollution.</p>
+        <p class="main">* The API I would love to use isto use 4-5 different car companies and gather information about their electric car price, so people could search the electric car by their budget and switch their gas car to an electric one.The main idea is to show people the current situation of these two, include some informationabout global warming and how plastic destroys nature.Why do I want to build this website?
+          * I honestly think electric cars are the future, and the pollution is something that we better to take care of as soon as possible. By doing web development, it brings me joy if I could actually help to save the planet by coding.</p> 
+        <p>Designed with the enthusiast in mind</p>
+        <h3>Licensing</h3>
+        <p>No Licensing</p>
       </div>
-    </section>
-    <section class="jumbotron">
-      <h1 class="display-4">Goodbye, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </section>
   </div>
 </template>
@@ -75,30 +40,14 @@ export default {
 
 </script>
 <style lang="scss" scoped>
-// making jumbotron look smaller and cleaner
-.jumbotron {
-  text-align: center;
-  margin: 0;
-}
-
-.slider {
-  padding: 2% 20%;
-}
-
-/* Make the image fully responsive */
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
-}
-
-.row {
-  h1 {
-    text-align: center;
-
-    ul {
-      list-style: none;
-    }
-  }
+.box {
+  width: 40%;
+  margin: 2% auto 4%;
+  background: #eeeeee;
+  padding: 2%;
+  -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 </style>
