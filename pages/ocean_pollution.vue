@@ -8,10 +8,10 @@
     </section>
     <section class=" pt-2 pb-2">
       <div class="video col-12">
-        <video class="img-thumbnail img-fluid" poster="https://cdn11.bigcommerce.com/s-amir6jyttl/stencil/42b33470-abc3-0137-77ed-0242ac11000d/e/c89d89c0-607f-0137-5425-0242ac110007/img/desktopHeroVideo.jpg" id="homeVideoLoop" playsinline="" autoplay="" muted="" loop="">
+        <video class="img-thumbnail img-fluid" poster="https://cdn11.bigcommerce.com/s-amir6jyttl/stencil/42b33470-abc3-0137-77ed-0242ac11000d/e/c89d89c0-607f-0137-5425-0242ac110007/img/desktopHeroVideo.jpg" id="homeVideoLoop" playsinline="" controls autoplay muted loop="">
           <source id="mp4" type="video/mp4" data-mobile-path="https://firebasestorage.googleapis.com/v0/b/ocean-bc.appspot.com/o/4ocean%20homepage%20video%20(mobile).mp4?alt=media&amp;token=f8ce3c10-92bd-4321-bdd1-e06bf655d6d2" data-desktop-path="https://firebasestorage.googleapis.com/v0/b/ocean-bc.appspot.com/o/4ocean%20homepage%20video%20(desktop).mp4?alt=media&amp;token=b21294bf-77ee-469f-ba63-e09fbce97049" src="https://firebasestorage.googleapis.com/v0/b/ocean-bc.appspot.com/o/4ocean%20homepage%20video%20(desktop).mp4?alt=media&amp;token=b21294bf-77ee-469f-ba63-e09fbce97049">
         </video>
-        <button class="btn-primary mt-3"><a class="p-5" href="https://4ocean.com/">Go to 4Ocean.com</a></button>
+        <button class="btn-primary mt-3"><a class="p-5" href="https://4ocean.com/">www.4Ocean.com</a></button>
       </div>
     </section>
     <hr>
@@ -72,7 +72,7 @@ export default {
 }
 
 </script>
-<style lang="scss" scoped>
+<style lang="scss">
 .row {
   width: 70%;
   margin: 0 auto;
@@ -90,6 +90,8 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 70%;
+  margin: 0 auto;
 
   .btn-primary {
     a {

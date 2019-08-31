@@ -53,7 +53,7 @@
 }
 
 #nav {
-  background: skyblue;
+  background: #87CEEB;
   padding: 0.5% 30%;
   display: -webkit-flex;
   display: -moz-flex;
