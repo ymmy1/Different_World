@@ -1,5 +1,9 @@
 <template>
   <div class="accordion">
+    <my-header>
+      <h1 slot="header">{{ mainmsg }}</h1>
+      <p slot="subtitle">{{ titlemsg }}</p>
+    </my-header>
     <section class="main_accordion">
       <div id="accordion">
         <div v-for="(poster, index) in posters" :key="index" class="card">
@@ -44,7 +48,7 @@
   display: inline-block;
   display: flex;
   justify-content: space-around;
-  padding: 2% 0;
+  padding: 0 0 2%;
   align-items: baseline;
 
   img {
@@ -102,9 +106,17 @@
 
 </style>
 <script>
+import myHeader from '../components/MyHeader.vue';
+
 export default {
+  name: 'select a car',
+  components: {
+    myHeader
+  },
   data() {
     return {
+      mainmsg: 'Select a Car',
+      titlemsg: 'Find a 100% electric car you would love to drive',
       show: false,
       posters: [{
           img_link: require('../assets/anime-1.jpg'),

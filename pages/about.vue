@@ -1,5 +1,9 @@
 <template>
   <div class="home">
+    <my-header>
+      <h1 slot="header">{{ mainmsg }}</h1>
+      <p slot="subtitle">{{ titlemsg }}</p>
+    </my-header>
     <section class="jumbotron">
       <h1 class="display-4">Hello, world!</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -53,9 +57,20 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'home',
+import myHeader from '../components/MyHeader.vue';
 
+export default {
+  name: 'about',
+  components: {
+    myHeader
+  },
+  data() {
+    // returning data
+    return {
+      mainmsg: 'About Page',
+      titlemsg: 'The main idea and purpose of this website'
+    }
+  }
 }
 
 </script>

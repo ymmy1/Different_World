@@ -2,8 +2,8 @@
   <div id="images">
     <section class=" text-center">
       <my-header>
-        <h1 slot="header" class="display-4">{{ msg | capitalize}}</h1>
-        <p slot="subtitle">Images of our planet</p>
+        <h1 slot="header">{{ mainmsg }}</h1>
+        <p slot="subtitle">{{ titlemsg }}</p>
       </my-header>
       <AppImages :album="album" />
     </section>
@@ -13,12 +13,14 @@
 // Importing components
 import AppImages from '../components/AppImages.vue';
 import myHeader from '../components/MyHeader.vue';
+
 export default {
   name: 'images',
   data() {
     // returning data
     return {
-      msg: 'Nature Images',
+      mainmsg: 'Air Pollution',
+      titlemsg: 'Air pollution blog.(sources: NASA, Wikipedia)',
 
       album: [{ title: 'Beautiful Waterfall', info: '(Click on the Image to change the border)', alt: 'Beautiful Waterfall', src: require('../assets/img-1.jpg'), isActive: false },
         { title: 'Deep in the Forest', info: '(Click on the Image to change the border)', alt: 'Deep in the Forest', src: require('../assets/img-2.jpg'), isActive: false },
@@ -40,14 +42,4 @@ export default {
 
 </script>
 <style scoped>
-/* Some styles to look better*/
-h1 {
-  margin-top: 2%;
-}
-
-p {
-  font-style: italic;
-  color: grey;
-}
-
 </style>

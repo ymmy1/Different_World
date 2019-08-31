@@ -9,12 +9,5 @@ export default {
 
       alert('hello world')
     }
-  },
-  // Adding filter to capitalise header
-  filters: {
-    capitalize: function(value) {
-      value = value.toString()
-      return value.toUpperCase()
-    }
   }
 }
