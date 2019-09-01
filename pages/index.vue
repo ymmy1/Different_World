@@ -119,7 +119,7 @@ export default {
       titlemsg: 'Find a 100% electric car you would love to drive',
       show: false,
       posters: [{
-          img_link: require('../assets/anime-1.jpg'),
+          img_link: require('../assets/anime-2.jpg'),
           div_id: 'one',
           movie_name: 'Your Name',
           div_class: 'bd-example-modal-lg',
@@ -133,7 +133,7 @@ export default {
           modal_line_7: 'Did you know: "Your Name" is the second-highest-grossing anime film'
         },
         {
-          img_link: require('../assets/anime-2.jpg'),
+          img_link: require('../assets/anime-1.jpg'),
           div_id: 'two',
           movie_name: 'Weathering with You',
           div_class: 'bd-example-modal-lg2',
