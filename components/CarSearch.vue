@@ -1,5 +1,6 @@
 <style lang="scss" scoped>
 #accordion {
+  margin-top: 2%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -8,10 +9,13 @@
   .card {
     display: inline-block;
     width: 23%;
+    margin-bottom: 2%;
 
     a {
       img {
-        width: 100%;
+        width: 400px;
+        height: 300px;
+        object-fit: contain;
       }
     }
 
