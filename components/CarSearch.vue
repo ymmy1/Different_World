@@ -59,7 +59,9 @@
           <div v-bind:class="'modal fade ' + poster.div_class" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
-                <iframe :src="poster.youtube" allowfullscreen height="500px"></iframe>
+                <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+                  <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe>
+                </div>
                 <a :href="poster.weblink" target="_blank"><button class="btn-primary">Order from original website</button></a>
               </div>
             </div>
