@@ -2,13 +2,13 @@
 #accordion {
   margin-top: 2%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: baseline;
 
   .card {
     display: inline-block;
-    width: 23%;
+    width: 450px;
     margin-bottom: 2%;
 
     a {
