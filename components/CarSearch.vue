@@ -19,6 +19,7 @@
                 {{poster.modal_line_5}}<br>
                 {{poster.modal_line_6}}<br>
                 {{poster.modal_line_7}}<br>
+                <a :href="poster.weblink">google</a>
               </div>
             </div>
           </div>

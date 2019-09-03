@@ -4,6 +4,7 @@
   "div_id": "one",
   "movie_name": "Your Name",
   "div_class": "bd-example-modal-lg",
+  "weblink": "google.com",
 
   "modal_line_1": "A teenage boy and girl embark on a quest to meet each other for the first time after they magically swap bodies.",
   "modal_line_2": "Release date: April 7, 2017 (USA)",
@@ -18,6 +19,7 @@
   "div_id": "two",
   "movie_name": "Weathering with You",
   "div_class": "bd-example-modal-lg2",
+  "weblink": "google.com",
 
   "modal_line_1": "Weathering with You is a Japanese animated film written and directed by ",
   "modal_line_2": "Makoto Shinkai and produced by CoMix Wave Films, following the 2016 ",
@@ -32,6 +34,7 @@
   "div_id": "three",
   "movie_name": "My Neighbor Totoro",
   "div_class": "bd-example-modal-lg3",
+  "weblink": "google.com",
 
   "modal_line_1": "This acclaimed animated tale by director Hayao Miyazaki follows schoolgirl",
   "modal_line_2": "Satsuke and her younger sister, Mei, as they settle into an old country house",
