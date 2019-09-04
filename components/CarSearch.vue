@@ -53,7 +53,7 @@
             <p><span class="font-weight-bold">MSRP: </span>{{poster.msrp}}</p>
             <p><span class="font-weight-bold">MPGe: </span>{{poster.mpge}}</p>
             <p><span class="font-weight-bold">Battery charge life: </span>{{poster.charge}}</p>
-            <p><span class="font-weight-bold">Battery: </span>{{poster.battery}}</p>
+            <p><span class="font-weight-bold">Horsepower: </span>{{poster.horsepower}}</p>
             <p><a :href="poster.rate_1_link">{{poster.rate_1}}</a></p>
             <p><a :href="poster.rate_2_link">{{poster.rate_2}}</a></p>
             <div data-toggle="modal" v-bind:data-target="'.' + poster.div_class">
