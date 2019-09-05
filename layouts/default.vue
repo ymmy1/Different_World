@@ -3,11 +3,13 @@
     <header>
       <div class="main-title">
         <nuxt-link class="main-title_link" to="/">
-          <h4 class="p-0 m-0">The</h4>
-          <h1 class="m33">
-            Different World
-          </h1>
-          <p>Clean The Air You Breathe</p>
+          <div class="logo-text">
+            <h4 class="p-0 m-0">The</h4>
+            <h1 class="m33">
+              Different World
+            </h1>
+            <p>Clean The Air You Breathe</p>
+          </div>
           <div class="bird-container bird-container--one">
             <div class="bird bird--one"></div>
           </div>
@@ -56,6 +58,19 @@
   &_link {
     color: #000000;
     text-decoration: none;
+  }
+
+  .logo-text {
+    background: rgba(232, 236, 241, 0.6);
+    width: 500px;
+    padding: 5% 0;
+    border-radius: 50%;
+    // border: 5px solid rgba(232, 236, 241, 0.8);
+
+    p {
+      font-style: italic;
+      font-weight: bold;
+    }
   }
 }
 
