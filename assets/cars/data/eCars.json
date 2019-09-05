@@ -278,7 +278,7 @@
   {
     "img_link": "/assets/cars-img/mitsubishi-outlander.jpg",
     "div_id": "sixteen",
-    "car_name": "2019 Mitsubishi Outlander PHEV",
+    "car_name": "2019 Mitsubishi Outlander",
     "div_class": "bd-example-modal-lg_16",
     "weblink": "https://www.mitsubishicars.com/outlander-phev/2019",
 
@@ -290,8 +290,8 @@
     "rate_1": "3.5/5 Cnet",
     "rate_1_link": "https://www.cnet.com/roadshow/reviews/2019-mitsubishi-outlander-phev-review/",
     "rate_2": "6.5/10 Edmunds",
-    "rate_2_link": "https://www.edmunds.com/nissan/leaf/",
-    "youtube": "edmunds.com/mitsubishi/outlander-phev/2019/suv/"
+    "rate_2_link": "https://www.edmunds.com/mitsubishi/outlander-phev/2019/suv/",
+    "youtube": "https://www.youtube.com/embed/FF7Zb4fH6BQ"
   },
   {
     "img_link": "/assets/cars-img/Toyota-Prius-Prime.jpg",

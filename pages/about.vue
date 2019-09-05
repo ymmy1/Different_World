@@ -35,6 +35,13 @@ export default {
       mainmsg: 'About Page',
       titlemsg: 'The main idea and purpose of this website'
     }
+  },
+  head() {
+    return {
+      meta: [
+        { hid: 'description', name: 'description', content: 'Information about the different world we can make together.' }
+      ]
+    }
   }
 }
 

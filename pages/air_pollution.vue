@@ -68,11 +68,23 @@ export default {
   //Naming components
   components: {
     myHeader
+  },
+  head() {
+    return {
+      meta: [
+        { hid: 'description', name: 'description', content: 'Information about air pollution, how much air pollution comes from cars and movie trailer about air pollution' }
+      ]
+    }
   }
 }
 
 </script>
 <style lang="scss" scoped>
+button {
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
 .row {
   width: 70%;
   margin: 0 auto;

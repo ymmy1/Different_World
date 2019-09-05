@@ -67,12 +67,24 @@ export default {
   },
   components: {
     myHeader
+  },
+  head() {
+    return {
+      meta: [
+        { hid: 'description', name: 'description', content: 'Information about ocean pollution, how much ocean pollution comes from plastic and movie trailer about ocean pollution' }
+      ]
+    }
   }
 
 }
 
 </script>
 <style lang="scss" scoped>
+button {
+  border-radius: 5px;
+  padding: 5px 15px;
+}
+
 .row {
   width: 70%;
   margin: 0 auto;
@@ -113,4 +125,3 @@ video {
 }
 
 </style>
-

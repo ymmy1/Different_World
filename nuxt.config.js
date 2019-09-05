@@ -4,11 +4,12 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'The Different World',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Clean the air you breathe, find select and buy electric car, watch blogs about air and ocean pollution.' },
+      { hid: 'keywords', name: 'keywords', content: "Electric car, electric cars, ecology, green peace, tesla, air pollution, ocean pollution, different world, junk gas car." }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

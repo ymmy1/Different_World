@@ -3,9 +3,11 @@
     <header>
       <div class="main-title">
         <nuxt-link class="main-title_link" to="/">
+          <h4 class="p-0 m-0">The</h4>
           <h1 class="m33">
             Different World
           </h1>
+          <p>Clean The Air You Breathe</p>
           <div class="bird-container bird-container--one">
             <div class="bird bird--one"></div>
           </div>

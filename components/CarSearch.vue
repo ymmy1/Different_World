@@ -11,6 +11,11 @@
     width: 450px;
     margin-bottom: 2%;
 
+    button {
+      border-radius: 5px;
+      padding: 5px 15px;
+    }
+
     a {
       img {
         width: 400px;
