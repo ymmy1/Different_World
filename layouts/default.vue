@@ -35,7 +35,7 @@
     <!-- Footer -->
     <footer id="footer" class="page-footer font-small bg-info">
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://ymmy1.github.io/portfolio/" class="text-secondary">Ymmy</a>
       </div>
       <!-- Copyright -->
