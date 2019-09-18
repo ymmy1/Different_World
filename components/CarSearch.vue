@@ -1,5 +1,5 @@
 <style lang="scss" scoped>
-#accordion {
+  #accordion {
   margin-top: 2%;
   display: flex;
   justify-content: space-around;
@@ -39,7 +39,16 @@
     }
   }
 }
-
+.close {
+  position:absolute;
+  right:-50px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
 </style>
 <template>
   <div id="accordion">
@@ -68,6 +77,9 @@
           <div v-bind:class="'modal fade ' + poster.div_class" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
                   <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe>
                 </div>
