@@ -44,6 +44,10 @@
   </div>
 </template>
 <style lang="scss" scoped>
+* {
+  box-sizing: border-box;
+}
+
 .main-title {
   background: url("../assets/main.jpg") no-repeat center top/cover, linear-gradient(to right, #fff 0%, #4797C8 100%);
   height: 40vh;
@@ -61,10 +65,12 @@
   }
 
   .logo-text {
-    background: rgba(232, 236, 241, 0.6);
+    background: rgba(232, 236, 241, 0.4);
     width: 500px;
-    padding: 5% 0;
-    border-radius: 50%;
+    padding: 2% 0;
+    border-top: 15px rgba(232, 236, 241, 1) solid;
+    border-bottom: 15px rgba(232, 236, 241, 1) solid;
+    // border-radius: 50%;
     // border: 5px solid rgba(232, 236, 241, 0.8);
 
     p {

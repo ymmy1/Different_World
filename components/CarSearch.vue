@@ -81,7 +81,8 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe>
+                  <!--   <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe> -->
+                  <youtube class="embed-responsive-item" :video-id="poster.youtube" ref="youtube" @playing="playing" allowfullscreen></youtube>
                 </div>
                 <a :href="poster.weblink" target="_blank"><button class="btn-primary">Order from original website</button></a>
               </div>
@@ -93,13 +94,30 @@
   </div>
 </template>
 <script>
+import Vue from 'vue';
 import cars from '../assets/cars/data/eCars.json';
+import VueYoutube from 'vue-youtube';
+
+Vue.use(VueYoutube)
 
 export default {
   name: 'CarSearch',
   data() {
     return {
       cars
+    }
+  },
+  methods: {
+    playVideo() {
+      this.$refs.youtube.player.playVideo()
+    },
+    playing() {
+      console.log('\o/ we are watching!!!')
+    }
+  },
+  computed: {
+    player() {
+      return this.$refs.youtube.player
     }
   }
 }
