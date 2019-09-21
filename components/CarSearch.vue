@@ -81,8 +81,7 @@
                   <span aria-hidden="true">&times;</span>
                 </button>
                 <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
-                  <!--   <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe> -->
-                  <youtube class="embed-responsive-item" :video-id="poster.youtube" ref="youtube" @playing="playing" allowfullscreen></youtube>
+                  <iframe class="embed-responsive-item" :src="poster.youtube" allowfullscreen></iframe>
                 </div>
                 <a :href="poster.weblink" target="_blank"><button class="btn-primary">Order from original website</button></a>
               </div>
