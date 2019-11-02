@@ -25,9 +25,9 @@
         </nuxt-link>
       </div>
       <nav id="nav">
-        <nuxt-link class="nav_link" to="/">Select a Car</nuxt-link> |
+        <nuxt-link class="nav_link" to="/">Electric Cars</nuxt-link> |
+        <nuxt-link class="nav_link" to="/hybrid_cars">Hybrid Cars</nuxt-link> |
         <nuxt-link class="nav_link" to="/air_pollution">Air Pollution</nuxt-link> |
-        <nuxt-link class="nav_link" to="/ocean_pollution">Ocean Pollution</nuxt-link> |
         <nuxt-link class="nav_link" to="/about">About</nuxt-link>
       </nav>
     </header>
