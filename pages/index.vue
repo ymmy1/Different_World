@@ -49,7 +49,7 @@ export default {
   },
   data() {
     return {
-      mainmsg: 'Select a Car',
+      mainmsg: 'Top 12 electric cars in the world',
       titlemsg: 'Find a 100% electric car you would love to drive',
 
     }

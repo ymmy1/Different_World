@@ -49,7 +49,7 @@ export default {
   },
   data() {
     return {
-      mainmsg: 'Select a Car',
+      mainmsg: 'Top 12 hybrid cars in the world',
       titlemsg: 'Find a hybrid car you would love to drive',
 
     }
