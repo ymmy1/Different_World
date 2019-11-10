@@ -1,7 +1,7 @@
 [
 {
   "img_link": "/assets/cars-img/nissan-leaf.jpg",
-  "div_id": "one",
+  "div_id": "eone",
   "car_name": "2019 Nissan Leaf",
   "div_class": "bd-example-modal-lg",
   "weblink": "https://www.nissanusa.com/vehicles/electric-cars/leaf.html?pth=0",
@@ -19,7 +19,7 @@
 },
 {
   "img_link": "/assets/cars-img/tesla-model-3.jpg",
-  "div_id": "two",
+  "div_id": "etwo",
   "car_name": "2019 Tesla Model 3",
   "div_class": "bd-example-modal-lg_2",
   "weblink": "https://www.tesla.com/en_GB/model3/design#battery",
@@ -37,7 +37,7 @@
 },
 {
   "img_link": "/assets/cars-img/volkswagen-e-golf.jpg",
-  "div_id": "three",
+  "div_id": "ethree",
   "car_name": "2019 Volkswagen E Golf",
   "div_class": "bd-example-modal-lg_3",
   "weblink": "https://www.vw.com/models/e-golf/section/overview/",
@@ -55,7 +55,7 @@
 },
 {
   "img_link": "/assets/cars-img/chevrolet-bolt.jpg",
-  "div_id": "four",
+  "div_id": "efour",
   "car_name": "2020 Chevrolet Bolt",
   "div_class": "bd-example-modal-lg_4",
   "weblink": "https://www.chevrolet.com/electric/bolt-ev-electric-car/build-and-price/trim",
@@ -73,7 +73,7 @@
 },
 {
   "img_link": "/assets/cars-img/bmw-i3.jpg",
-  "div_id": "five",
+  "div_id": "efive",
   "car_name": "2019 BMW i3",
   "div_class": "bd-example-modal-lg_5",
   "weblink": "https://www.bmwusa.com/vehicles/bmwi/i3/sedan/overview.html",
@@ -91,7 +91,7 @@
 },
 {
   "img_link": "/assets/cars-img/jaguar-i-pace-lo.jpg",
-  "div_id": "six",
+  "div_id": "esix",
   "car_name": "2020 Jaguar I-PACE",
   "div_class": "bd-example-modal-lg_6",
   "weblink": "https://www.jaguarusa.com/all-models/i-pace/index.html?abkid=407_334755&gclid=CjwKCAjwnrjrBRAMEiwAXsCc4zlTzfjQx0ttJ5IbkRLQC9c4NpuPRLu-ldU0xH0WdXeHyCPv5S_lPxoCKV0QAvD_BwE&c",
@@ -109,7 +109,7 @@
 },
 {
   "img_link": "/assets/cars-img/tesla-model-x.jpg",
-  "div_id": "seven",
+  "div_id": "eseven",
   "car_name": "2019 Tesla Model X",
   "div_class": "bd-example-modal-lg_7",
   "weblink": "https://www.tesla.com/en_GB/modelx/design#battery",
@@ -127,7 +127,7 @@
 },
 {
   "img_link": "/assets/cars-img/tesla-model-s.jpg",
-  "div_id": "eight",
+  "div_id": "eeight",
   "car_name": "2019 Tesla Model S",
   "div_class": "bd-example-modal-lg_8",
   "weblink": "https://www.tesla.com/en_GB/models/design#battery",
@@ -145,7 +145,7 @@
 },
 {
   "img_link": "/assets/cars-img/kia-soul-ev.jpg",
-  "div_id": "nine",
+  "div_id": "enine",
   "car_name": "2019 Kia Soul EV",
   "div_class": "bd-example-modal-lg_9",
   "weblink": "https://www.kia.com/us/en/soul",
@@ -163,7 +163,7 @@
 },
 {
   "img_link": "/assets/cars-img/audi-e-tron.jpg",
-  "div_id": "ten",
+  "div_id": "eten",
   "car_name": "2019 Audi e-tron",
   "div_class": "bd-example-modal-lg_10",
   "weblink": "https://www.audiusa.com/models/audi-e-tron",
@@ -181,9 +181,9 @@
 },
 {
   "img_link": "/assets/cars-img/fiat-500.jpg",
-  "div_id": "twenty",
+  "div_id": "eeleven",
   "car_name": "2019 Fiat 500e",
-  "div_class": "bd-example-modal-lg_20",
+  "div_class": "bd-example-modal-lg_11",
   "weblink": "https://www.fiatusa.com/500e.html",
 
   "range": "84 mi battery-only",
@@ -199,9 +199,9 @@
 },
 {
   "img_link": "/assets/cars-img/kia-niro-ev.jpg",
-  "div_id": "twenty_one",
+  "div_id": "etwelve",
   "car_name": "2019 Kia Niro EV",
-  "div_class": "bd-example-modal-lg_21",
+  "div_class": "bd-example-modal-lg_12",
   "weblink": "https://www.kia.com/us/en/niro-plug-in-hybrid",
 
   "range": " 239 mi battery-only",

@@ -14,13 +14,15 @@
 <style lang="scss" scoped>
 .slot {
   h1 {
-    margin-top: 1%;
-    font-size: 2.5em;
+    margin-top: 2%;
+    font-size: 3em;
+    font-weight: bold;
   }
 
   p {
     font-style: italic;
     color: grey;
+    font-size: 1.4em;
   }
 }
 
