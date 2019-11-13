@@ -65,10 +65,10 @@
   "mpge": "127 city / 108 highway",
   "charge": "10h at 220V",
   "horsepower": "200 hp",
-  "rate_1": "4.5/5 Motortrend",
-  "rate_1_link": "https://www.motortrend.com/cars/chevrolet/bolt-ev/2019/",
-  "rate_2": "7.9/10 Edmunds",
-  "rate_2_link": "https://www.edmunds.com/chevrolet/bolt-ev/",
+  "rate_1": "Not Yet Motortrend",
+  "rate_1_link": "#",
+  "rate_2": "Not Yet Edmunds",
+  "rate_2_link": "#",
   "youtube": "https://www.youtube.com/embed/QHOPFp1o3d0"
 },
 {
@@ -101,9 +101,9 @@
   "mpge": "80 city / 72 highway",
   "charge": "13h at 220V, 1.5h at 440V",
   "horsepower": "394 hp",
-  "rate_1": "N/A",
+  "rate_1": "Not Yet Edmunds",
   "rate_1_link": "#",
-  "rate_2": "N/A",
+  "rate_2": "Not Yet Kelly Blue Book",
   "rate_2_link": "#",
   "youtube": "https://www.youtube.com/embed/knC9nM2uegE"
 },
