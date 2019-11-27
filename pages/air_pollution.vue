@@ -80,6 +80,15 @@ export default {
 
 </script>
 <style lang="scss" scoped>
+#images {
+  background: #fff;
+
+  h1 {
+    margin-top: 0;
+    padding-top: 2%;
+  }
+}
+
 button {
   border-radius: 5px;
   padding: 5px 15px;

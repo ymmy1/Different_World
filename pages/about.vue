@@ -7,13 +7,12 @@
     <section>
       <div class="box">
         <nuxt-link class="nav_link" to="/">
-          <h2>Different World</h2>
+          <h2>Future World</h2>
         </nuxt-link>
         <p>*The web-page to make the world as free of gasoline cars as possible*</p>
         <h3>Description</h3>
-        <p>The topic of my website the air pollution.</p>
-        <p class="main">* The API I would love to use is to use 4-5 different car companies and gather information about their electric car price, so people could search the electric car by their budget and switch their gas car to an electric one.The main idea is to show people the current situation of the air pollution, include some informationabout global warming. Why do I want to build this website?
-          * I honestly think electric cars are the future, and the pollution is something that we better to take care of as soon as possible. By doing web development, it brings me joy if I could actually help to save the planet by coding.</p> 
+        <p>The topic of my website the main problem of 21 century, the air pollution.</p>
+        <p class="main">The site is built and designed to provide information about the current situation with air pollution. APIs are used to provide updated information on electric and hybrid cars for the current day. Electric cars are one of the main solutions to stop the toxic substances being thrown into the atmosphere. Electric, what I believe, is the first step for the bright healthy future for humanity. </p> 
         <p>Designed with the enthusiast in mind</p>
         <h3>Licensing</h3>
         <p>No Licensing</p>
@@ -47,6 +46,15 @@ export default {
 
 </script>
 <style lang="scss" scoped>
+.home {
+  background: #fff;
+
+  h1 {
+    margin-top: 0;
+    padding-top: 2%;
+  }
+}
+
 .box {
   width: 40%;
   margin: 2% auto 4%;

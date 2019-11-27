@@ -1,39 +1,45 @@
 <template>
   <div id="app" class="noselect">
     <header>
-      <div class="main-title">
-        <nuxt-link class="main-title_link" to="/">
-          <div class="logo-text">
-            <h4 class="p-0 m-0">The</h4>
-            <h1 class="m33">
-              Different World
-            </h1>
-            <p>Clean The Air You Breathe</p>
-          </div>
-          <div class="bird-container bird-container--one">
-            <div class="bird bird--one"></div>
-          </div>
-          <div class="bird-container bird-container--two">
-            <div class="bird bird--two"></div>
-          </div>
-          <div class="bird-container bird-container--three">
-            <div class="bird bird--three"></div>
-          </div>
-          <div class="bird-container bird-container--four">
-            <div class="bird bird--four"></div>
-          </div>
-        </nuxt-link>
-      </div>
-      <nav id="nav">
-        <nuxt-link class="nav_link" to="/">Electric Cars</nuxt-link> |
-        <nuxt-link class="nav_link" to="/hybrid_cars">Hybrid Cars</nuxt-link> |
-        <nuxt-link class="nav_link" to="/air_pollution">Air Pollution</nuxt-link> |
-        <nuxt-link class="nav_link" to="/about">About</nuxt-link>
-      </nav>
+      <video autoplay muted loop id="myVideo">
+        <source src="../assets/bg-video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <a href="https://www.youtube.com/watch?v=m-PJmmvyP10" target="_blank">
+        <div class="main-title">
+          <nuxt-link class="main-title_link" to="/">
+            <div class="logo-text">
+              <h4 class="p-0 m-0">The</h4>
+              <h1 class="m33">
+                Future World
+              </h1>
+              <p>Clean The Air You Breathe</p>
+            </div>
+            <div class="bird-container bird-container--one">
+              <div class="bird bird--one"></div>
+            </div>
+            <div class="bird-container bird-container--two">
+              <div class="bird bird--two"></div>
+            </div>
+            <div class="bird-container bird-container--three">
+              <div class="bird bird--three"></div>
+            </div>
+            <div class="bird-container bird-container--four">
+              <div class="bird bird--four"></div>
+            </div>
+          </nuxt-link>
+        </div>
+      </a>
     </header>
+    <nav id="nav">
+      <nuxt-link class="nav_link" to="/">Electric Cars</nuxt-link> |
+      <nuxt-link class="nav_link" to="/hybrid_cars">Hybrid Cars</nuxt-link> |
+      <nuxt-link class="nav_link" to="/air_pollution">Air Pollution</nuxt-link> |
+      <nuxt-link class="nav_link" to="/about">About</nuxt-link>
+    </nav>
     <nuxt />
     <!-- Footer -->
-    <footer id="footer" class="page-footer font-small bg-info">
+    <footer id="footer" class="page-footer font-small">
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://ymmy1.github.io/portfolio/" class="text-secondary">Ymmy</a>
@@ -48,9 +54,23 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -5;
+  object-fit: cover;
+}
+
 .main-title {
-  background: url("../assets/main.jpg") no-repeat center top/cover, linear-gradient(to right, #fff 0%, #4797C8 100%);
-  height: 40vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,6 +85,7 @@
   }
 
   .logo-text {
+    position: static;
     background: rgba(232, 236, 241, 0.4);
     width: 500px;
     padding: 2% 0;
@@ -76,6 +97,12 @@
     p {
       font-style: italic;
       font-weight: bold;
+    }
+
+    &:hover {
+      background: rgba(255, 215, 0, 0.4);
+      transform: ease;
+      transition: 1s;
     }
   }
 }
@@ -91,7 +118,7 @@
 }
 
 #nav {
-  background: #87CEEB;
+  background: #222;
   padding: 0.5% 30%;
   display: -webkit-flex;
   display: -moz-flex;
@@ -99,6 +126,7 @@
   display: -o-flex;
   display: flex;
   justify-content: space-around;
+  z-index: -5;
 }
 
 .nav_link {
@@ -268,6 +296,11 @@
     transform: translateY(0vh) translateX(110vw) scale(0.45);
   }
 
+}
+
+#footer {
+  background: #222;
+  color: #fff;
 }
 
 // Birds Finish

@@ -18,7 +18,7 @@
 
     a {
       img {
-        width: 400px;
+        width: 100%;
         height: 300px;
         object-fit: contain;
       }

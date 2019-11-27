@@ -14,6 +14,15 @@
   </div>
 </template>
 <style lang="scss" scoped>
+.accordion {
+  background: #fff;
+
+  h1 {
+    margin-top: 0;
+    padding-top: 2%;
+  }
+}
+
 .junk-button {
   display: -webkit-flex;
   display: -moz-flex;
