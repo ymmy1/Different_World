@@ -42,7 +42,7 @@
     <footer id="footer" class="page-footer font-small">
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://ymmy1.github.io/portfolio/" class="text-secondary">Ymmy</a>
+        <a href="https://ymmy1.github.io/portfolio/" class="text-secondary">Ymmy1</a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -153,7 +153,7 @@ a {
 //Birds start
 
 .bird {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells.svg);
+  background-image: url("../assets/bird-cells.svg");
   background-size: auto 100%;
   width: 88px;
   height: 125px;

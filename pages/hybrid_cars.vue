@@ -19,7 +19,7 @@
 
   h1 {
     margin-top: 0;
-    padding-top: 2%;
+    padding-top: 5%;
   }
 }
 
@@ -66,8 +66,8 @@ export default {
   },
   data() {
     return {
-      mainmsg: '2020 Top of 8 hybrid cars in the world',
-      titlemsg: 'Find a hybrid car you would love to drive',
+      mainmsg: 'Top Hybrid Cars 2020',
+      titlemsg: 'Top 8 hybrid cars in the world, find the best one you would love to drive.',
 
     }
   },

@@ -1,13 +1,13 @@
-# [Different World](https://ymmy1.github.io/Different_World/)
+# [Future World](https://ymmy1.github.io/Future_World/)
 *The web-page to make the world that you live in cleaner!*
 
 ## Description
 
-* The topic of my website is air & ocean pollution.
-* The API I would love to use isto use 4-5 different car companies and gather information about their electric car price, so people could search the electric car by their budget and switch their gas car to an electric one.The main idea is to show people the current situation of these two, include some informationabout global warming and how plastic destroys natureWhy do I want to build this website? 
-* I honestly think electric cars are the future, and the pollution is something that we better to take care of as soon as possible. By doing web development, it brings me joy if I could actually help to save the planet by only coding. 
+* The topic of my website the main problem of 21 century, the air pollution..
+* The site is built and designed to provide information about the current situation with air pollution. APIs are used to provide updated information on electric and hybrid cars for the current day. Electric cars are one of the main solutions to stop the toxic substances being thrown into the atmosphere. 
+* Electric, what I believe, is the first step for the bright healthy future for humanity.
 * Designed with the enthusiast in mind
 
 <h2>Licensing</h2>
 
-No Licensing
+#[Ymmy1](https://github.com/ymmy1/)

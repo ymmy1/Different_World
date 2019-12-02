@@ -85,7 +85,7 @@ export default {
 
   h1 {
     margin-top: 0;
-    padding-top: 2%;
+    padding-top: 5%;
   }
 }
 

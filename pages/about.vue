@@ -15,7 +15,7 @@
         <p class="main">The site is built and designed to provide information about the current situation with air pollution. APIs are used to provide updated information on electric and hybrid cars for the current day. Electric cars are one of the main solutions to stop the toxic substances being thrown into the atmosphere. Electric, what I believe, is the first step for the bright healthy future for humanity. </p> 
         <p>Designed with the enthusiast in mind</p>
         <h3>Licensing</h3>
-        <p>No Licensing</p>
+        <a href="https://github.com/ymmy1">Ymmy1</a>
       </div>
     </section>
   </div>
@@ -51,12 +51,13 @@ export default {
 
   h1 {
     margin-top: 0;
-    padding-top: 2%;
+    padding-top: 5%;
   }
 }
 
 .box {
-  width: 40%;
+  max-width: 40%;
+  min-width: 320px;
   margin: 2% auto 4%;
   background: #eeeeee;
   padding: 2%;

@@ -6,20 +6,21 @@
     </my-header>
     <car-search />
     <div class="junk-button">
-      <span>Junk Your Gasoline Car</span>
-      <a href="https://theclunkerjunker.com/" target="_blank"><button class="btn-danger">THE ClunkerJunker.com</button></a>
+      <span class="betterdeal">Junk Your Gasoline Car</span>
+      <a href="https://theclunkerjunker.com/" target="_blank"><button class="btn-danger">TheClunkerJunker.com</button></a>
       <span class="betterdeal">Or find a better deal on:</span>
       <a href="https://www.google.com/search?source=hp&ei=tN_HXeWGOrHJ5gLwg7L4CA&q=junk+car+for+cash&oq=junk+car+for+cash&gs_l=psy-ab.3..0l2j0i22i30l8.922.2948..3015...0.0..0.144.1998.0j16......0....1..gws-wiz.dgK-McHvyF4&ved=0ahUKEwjlsPupsd_lAhWxpFkKHfCBDI8Q4dUDCAY&uact=5" target="_blank"><button class="btn-info">Google.com</button></a>
     </div>
   </div>
 </template>
-<style lang="scss" scoped>
+<style lang="scss" scoped
+>
 .accordion {
   background: #fff;
 
   h1 {
     margin-top: 0;
-    padding-top: 2%;
+    padding-top: 5%;
   }
 }
 
@@ -66,8 +67,8 @@ export default {
   },
   data() {
     return {
-      mainmsg: '2020 Top of 12 electric cars in the world',
-      titlemsg: 'Find a 100% electric car you would love to drive',
+      mainmsg: 'Top Electric Cars 2020',
+      titlemsg: 'Top 12 electric cars in the world, find the best one you would love to drive.',
 
     }
   },
