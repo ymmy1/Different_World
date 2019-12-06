@@ -32,9 +32,9 @@
       </a>
     </header>
     <nav id="nav">
-      <nuxt-link class="nav_link" to="/">Electric Cars</nuxt-link> |
+      <nuxt-link class="nav_link" to="/">Main Page</nuxt-link> |
+      <nuxt-link class="nav_link" to="/electric_cars">Electric Cars</nuxt-link> |
       <nuxt-link class="nav_link" to="/hybrid_cars">Hybrid Cars</nuxt-link> |
-      <nuxt-link class="nav_link" to="/air_pollution">Air Pollution</nuxt-link> |
       <nuxt-link class="nav_link" to="/about">About</nuxt-link>
     </nav>
     <nuxt />

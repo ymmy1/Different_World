@@ -48,11 +48,6 @@ export default {
 <style lang="scss" scoped>
 .home {
   background: #fff;
-
-  h1 {
-    margin-top: 0;
-    padding-top: 5%;
-  }
 }
 
 .box {
