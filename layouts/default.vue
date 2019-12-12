@@ -303,7 +303,14 @@ a {
   color: #fff;
 }
 
-// Birds Finish
+@media only screen and (max-width: 880px) {
+  #nav {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+  }
+
+}
 
 </style>
 <script>

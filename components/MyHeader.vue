@@ -26,4 +26,13 @@
   }
 }
 
+@media only screen and (max-width: 880px) {
+  .slot {
+    h1 {
+      font-size: 2.4em;
+    }
+  }
+
+}
+
 </style>

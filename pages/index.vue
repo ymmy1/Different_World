@@ -162,9 +162,11 @@ a {
 }
 
 .post {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   height: 554px;
   overflow: hidden;
+  padding-top: 2%;
 
 
   img {
