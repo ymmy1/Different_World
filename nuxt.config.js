@@ -12,7 +12,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: "Electric car, electric cars, ecology, green peace, tesla, air pollution, ocean pollution, different world, junk gas car." }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js' },

@@ -1,41 +1,31 @@
 <template>
   <div id="app" class="noselect">
     <header>
-      <video autoplay muted loop id="myVideo">
-        <source src="../assets/bg-video.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-      </video>
-      <a href="https://www.youtube.com/watch?v=m-PJmmvyP10" target="_blank">
-        <div class="main-title">
-          <nuxt-link class="main-title_link" to="/">
-            <div class="logo-text">
-              <h4 class="p-0 m-0">The</h4>
-              <h1 class="m33">
-                Future World
-              </h1>
-              <p>Clean The Air You Breathe</p>
+      <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100 text-white">
+              <h1 class="display-3">Future World</h1>
+              <p class="lead mb-0">Clean the air you breathe</p>
             </div>
-            <div class="bird-container bird-container--one">
-              <div class="bird bird--one"></div>
-            </div>
-            <div class="bird-container bird-container--two">
-              <div class="bird bird--two"></div>
-            </div>
-            <div class="bird-container bird-container--three">
-              <div class="bird bird--three"></div>
-            </div>
-            <div class="bird-container bird-container--four">
-              <div class="bird bird--four"></div>
-            </div>
-          </nuxt-link>
-        </div>
-      </a>
+          </div>
+      </div>
     </header>
-    <nav id="nav">
-      <nuxt-link class="nav_link" to="/">Main Page</nuxt-link> |
-      <nuxt-link class="nav_link" to="/electric_cars">Electric Cars</nuxt-link> |
-      <nuxt-link class="nav_link" to="/hybrid_cars">Hybrid Cars</nuxt-link> |
-      <nuxt-link class="nav_link" to="/about">About</nuxt-link>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbar" data-toggle="collapse" type="button">
+	      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto mt-2">
+          <li class="nav-item"><nuxt-link class="nav-link" to="/">Main Page</nuxt-link></li>
+          <li class="nav-item"><nuxt-link class="nav-link" to="/electric_cars">Electric Cars</nuxt-link></li>
+          <li class="nav-item"><nuxt-link class="nav-link" to="/hybrid_cars">Hybrid Cars</nuxt-link></li>
+          <li class="nav-item"><nuxt-link class="nav-link" to="/about">About</nuxt-link></li>
+        </ul>
+      </div>
     </nav>
     <nuxt />
     <!-- Footer -->
@@ -50,61 +40,64 @@
   </div>
 </template>
 <style lang="scss" scoped>
-* {
+* 
+{
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
 }
 
-#myVideo {
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  height: 60vh;
+  height: 100%;
   width: 100%;
-  overflow: hidden;
-  z-index: -5;
-  object-fit: cover;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
 }
 
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
 .main-title {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
+  position: fixed;
+  height: 90vh;
+  background: #120E10;
   position: relative;
-  overflow: hidden;
-
-  &_link {
-    color: #000000;
-    text-decoration: none;
-  }
-
-  .logo-text {
-    position: static;
-    background: rgba(232, 236, 241, 0.4);
-    width: 500px;
-    padding: 2% 0;
-    border-top: 15px rgba(232, 236, 241, 1) solid;
-    border-bottom: 15px rgba(232, 236, 241, 1) solid;
-    // border-radius: 50%;
-    // border: 5px solid rgba(232, 236, 241, 0.8);
-
-    p {
-      font-style: italic;
-      font-weight: bold;
-    }
-
-    &:hover {
-      background: rgba(255, 215, 0, 0.4);
-      transform: ease;
-      transition: 1s;
-    }
-  }
 }
 
 #app {
@@ -117,27 +110,6 @@ a {
 
 }
 
-#nav {
-  background: #222;
-  padding: 0.5% 30%;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  justify-content: space-around;
-  z-index: -5;
-}
-
-.nav_link {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-
-  &:hover {
-    color: gold;
-  }
-}
 
 .noselect {
   -webkit-user-select: none;
@@ -150,194 +122,10 @@ a {
   /* Likely future */
 }
 
-//Birds start
-
-.bird {
-  background-image: url("../assets/bird-cells.svg");
-  background-size: auto 100%;
-  width: 88px;
-  height: 125px;
-  will-change: background-position;
-
-  animation-name: fly-cycle;
-  animation-timing-function: steps(10);
-  animation-iteration-count: infinite;
-
-  &--one {
-    animation-duration: 1s;
-    animation-delay: -0.5s;
-  }
-
-  &--two {
-    animation-duration: 0.9s;
-    animation-delay: -0.75s;
-  }
-
-  &--three {
-    animation-duration: 1.25s;
-    animation-delay: -0.25s;
-  }
-
-  &--four {
-    animation-duration: 1.1s;
-    animation-delay: -0.5s;
-  }
-
-}
-
-.bird-container {
-  position: absolute;
-  top: 20%;
-  left: -10%;
-  transform: scale(0) translateX(-10vw);
-  will-change: transform;
-
-  animation-name: fly-right-one;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  &--one {
-    animation-duration: 15s;
-    animation-delay: 0;
-  }
-
-  &--two {
-    animation-duration: 16s;
-    animation-delay: 1s;
-  }
-
-  &--three {
-    animation-duration: 14.6s;
-    animation-delay: 9.5s;
-  }
-
-  &--four {
-    animation-duration: 16s;
-    animation-delay: 10.25s;
-  }
-
-}
-
-@keyframes fly-cycle {
-
-  100% {
-    background-position: -900px 0;
-  }
-
-}
-
-@keyframes fly-right-one {
-
-  0% {
-    transform: scale(0.3) translateX(-10vw);
-  }
-
-  10% {
-    transform: translateY(2vh) translateX(10vw) scale(0.4);
-  }
-
-  20% {
-    transform: translateY(0vh) translateX(30vw) scale(0.5);
-  }
-
-  30% {
-    transform: translateY(4vh) translateX(50vw) scale(0.6);
-  }
-
-  40% {
-    transform: translateY(2vh) translateX(70vw) scale(0.6);
-  }
-
-  50% {
-    transform: translateY(0vh) translateX(90vw) scale(0.6);
-  }
-
-  60% {
-    transform: translateY(0vh) translateX(110vw) scale(0.6);
-  }
-
-  100% {
-    transform: translateY(0vh) translateX(110vw) scale(0.6);
-  }
-
-}
-
-@keyframes fly-right-two {
-
-  0% {
-    transform: translateY(-2vh) translateX(-10vw) scale(0.5);
-  }
-
-  10% {
-    transform: translateY(0vh) translateX(10vw) scale(0.4);
-  }
-
-  20% {
-    transform: translateY(-4vh) translateX(30vw) scale(0.6);
-  }
-
-  30% {
-    transform: translateY(1vh) translateX(50vw) scale(0.45);
-  }
-
-  40% {
-    transform: translateY(-2.5vh) translateX(70vw) scale(0.5);
-  }
-
-  50% {
-    transform: translateY(0vh) translateX(90vw) scale(0.45);
-  }
-
-  51% {
-    transform: translateY(0vh) translateX(110vw) scale(0.45);
-  }
-
-  100% {
-    transform: translateY(0vh) translateX(110vw) scale(0.45);
-  }
-
-}
 
 #footer {
   background: #222;
   color: #fff;
 }
-
-@media only screen and (max-width: 880px) {
-  #nav {
-    display: flex;
-    flex-direction: column;
-    padding: 2% 0;
-  }
-
-}
-
 </style>
-<script>
-export default {
-  // data() {
-  //   if (process.client) {
-  //     // Wrap every letter in a span
-  //     var textWrapper = document.querySelector('.ml3');
-  //     textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-  //     anime.timeline({ loop: true })
-  //       .add({
-  //         targets: '.ml3 .letter',
-  //         opacity: [0, 1],
-  //         easing: "easeInOutQuad",
-  //         duration: 2250,
-  //         delay: (el, i) => 150 * (i + 1)
-  //       }).add({
-  //         targets: '.ml3',
-  //         opacity: 0,
-  //         duration: 1000,
-  //         easing: "easeOutExpo",
-  //         delay: 1000
-  //       });
-  //   }
-  // }
-
-};
-
-</script>

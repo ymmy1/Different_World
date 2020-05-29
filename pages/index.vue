@@ -1,22 +1,9 @@
-<template>
+  <template>
   <section>
     <my-header>
       <h1 slot="header">{{ mainmsg }}</h1>
     </my-header>
-    <div id="body">
-      <img src="https://climate.nasa.gov/system/content_pages/main_images/1309_globaltemps_agency_comparison_2018.gif" alt="">
-      <div class="paragraphs">
-        <p class="upper">
-          Temperature data showing rapid warming in the past few decades, the latest data going up to 2018. According to NASA data, 2016 was the warmest year since 1880, continuing a long-term trend of rising global temperatures. The 10 warmest years in the 139-year record all have occurred since 2005, with the five warmest years being the five most recent years. Credit: NASA's Earth Observatory.
-        </p>
-        <p class="bottom">
-          Multiple studies published in peer-reviewed scientific journals1 show that 97 percent or more of actively publishing climate scientists agree*: Climate-warming trends over the past century are extremely likely due to human activities. In addition, most of the leading scientific organizations worldwide have issued public statements endorsing this position. The following is a partial list of these organizations, along with links to their published statements and a selection of related resources.
-        </p>
-        <a href="#gallery" class="explore">Explore ↓</a>
-      </div>
-      <hr>
-    </div>
-    <div class="bg">
+      <div class="bg">
       <h1 slot="header">{{ mainmsg2 }}</h1>
       <p slot="subtitle">{{ titlemsg2 }}</p>
       <div id="gallery">
@@ -92,11 +79,18 @@ export default {
 
 </script>
 <style lang="scss" scoped>
+
+section
+{
+  background: #fff;
+  z-index:5;
+}
 #body {
+  
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 5%;
+  margin: 0 5%;
   height: auto;
 
   img {
