@@ -6,46 +6,28 @@
     </my-header>
     <car-search />
     <div class="junk-button">
-      <span class="betterdeal">Junk Your Gasoline Car</span>
-      <a href="https://theclunkerjunker.com/" target="_blank"><button class="btn-danger">TheClunkerJunker.com</button></a>
-      <span class="betterdeal">Or find a better deal on:</span>
-      <a href="https://www.google.com/search?source=hp&ei=tN_HXeWGOrHJ5gLwg7L4CA&q=junk+car+for+cash&oq=junk+car+for+cash&gs_l=psy-ab.3..0l2j0i22i30l8.922.2948..3015...0.0..0.144.1998.0j16......0....1..gws-wiz.dgK-McHvyF4&ved=0ahUKEwjlsPupsd_lAhWxpFkKHfCBDI8Q4dUDCAY&uact=5" target="_blank"><button class="btn-info">Google.com</button></a>
+      <span> <a href="https://www.google.com/search?q=junk+car+for+cash">Junk Your Gasoline Car for Cash!</a></span>
     </div>
   </div>
 </template>
 <style lang="scss" scoped>
 .accordion {
   background: #fff;
+  padding-bottom: 20px;
 }
 
-.junk-button {
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  flex-direction: column;
-  margin: 1% 0 3%;
-
-  span {
-    font-size: 2.7em;
-  }
-
-  .betterdeal {
-    font-size: 1.7em;
-    font-style: italic;
-    margin-top: 0.5%;
-  }
-
+span {
+   font-size: 2.7em;
+   font-style: italic;
   a {
-    font-size: 1.7em;
-
-    button {
-      border-radius: 5px;
-      padding: 10px 15px;
+    text-decoration: none;
+    color: #000;
     }
+  a:hover
+  {
+    color: purple;
   }
-}
+  }
 
 </style>
 <script>

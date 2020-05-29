@@ -9,9 +9,10 @@
         <nuxt-link class="nav_link" to="/">
           <h2>Future World</h2>
         </nuxt-link>
-        <p>*The web-page to make the world as free of gasoline cars as possible*</p>
+        <p>This web-page to provide one of the sollutions to stop the global warming as well as to decreas the air pollution in the world</p>
         <h3>Description</h3>
-        <p>The topic of my website the main problem of 21 century, the air pollution.</p>
+        <p>In the main section you will find out a little bit about the global warming</p>
+        <p>Next up the website will provide couple of sulutions to solve this problem such as changing your gasoline car to electric or hybrid.</p>
         <p class="main">The site is built and designed to provide information about the current situation with air pollution. APIs are used to provide updated information on electric and hybrid cars for the current day. Electric cars are one of the main solutions to stop the toxic substances being thrown into the atmosphere. Electric, what I believe, is the first step for the bright healthy future for humanity. </p> 
         <p>Designed with the enthusiast in mind</p>
         <h3>Licensing</h3>

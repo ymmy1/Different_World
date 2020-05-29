@@ -61,7 +61,7 @@ export default {
     return {
       mainmsg2: 'Explore',
       titlemsg2: 'Interactives, galleries and apps',
-      mainmsg: "Scientific Consensus: Earth's Climate is Warming"
+      mainmsg: "Earth's Climate is Warming"
     }
   },
   //Naming components
