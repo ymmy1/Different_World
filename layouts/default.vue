@@ -3,7 +3,7 @@
     <header>
       <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+          <source src="../assets/Mt_Baker.mp4" type="video/mp4">
         </video>
         <div class="container h-100">
           <div class="d-flex h-100 text-center align-items-center">
@@ -31,8 +31,8 @@
     <!-- Footer -->
     <footer id="footer" class="page-footer font-small">
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href="https://ymmy1.github.io/portfolio/" class="text-secondary">Ymmy1</a>
+      <div class="footer-copyright text-center py-3">For more information visit:
+        <a href="https://climate.nasa.gov/" class="text-secondary">https://climate.nasa.gov/ <img src="../static/assets/index/1224px-NASA_logo.svg.png" alt="Nasa logo" class="footer-img"> </a>
       </div>
       <!-- Copyright -->
     </footer>
@@ -126,6 +126,11 @@ header .overlay {
 #footer {
   background: #222;
   color: #fff;
+
+  .footer-img
+  {
+    width: 40px;
+  }
 }
 </style>
 

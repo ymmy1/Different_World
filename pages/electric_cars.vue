@@ -27,7 +27,7 @@ span {
   {
     color: purple;
   }
-  }
+}
 
 </style>
 <script>
