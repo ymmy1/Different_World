@@ -1,5 +1,4 @@
-# [Future World](https://ymmy1.github.io/Future_World/)
-*The web-page to make the world that you live in cleaner!*
+
 
 ## Description
 
@@ -8,12 +7,9 @@
 * Electric, what I believe, is the first step for the bright healthy future for humanity.
 * Designed with the enthusiast in mind
 
-<h2>Licensing</h2>
 
-#[Ymmy1](https://github.com/ymmy1/)
-
-
-# <img src="https://i.imgur.com/VRUAebA.png" alt="drawing" width="40px"/> Future World
+# <img src="https://i.imgur.com/VRUAebA.png" alt="drawing" width="40px"/> [Future World](https://ymmy1.github.io/Future_World/)
+*The web-page to make the world that you live in cleaner!*
 ![](https://i.imgur.com/aIbgYLc.png)
 
 ## <img src="https://i.imgur.com/H3kbxUK.png" alt="drawing" width="40px"/> Front End Web Development With HTML, CSS & JavaScript Final Project
@@ -38,3 +34,7 @@
 <img src="https://i.imgur.com/nnbeEzn.png" alt="drawing"/>
 
 ### Feel free to suggest some improvements! 
+
+<h2>Licensing</h2>
+
+#[Ymmy1](https://github.com/ymmy1/)
