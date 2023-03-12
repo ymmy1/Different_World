@@ -1,5 +1,5 @@
 {
-  "name": "Future_World",
+  "name": "future_world",
   "version": "1.22.4",
   "description": "My bedazzling Nuxt.js project",
   "author": "ymmy1",
@@ -22,5 +22,32 @@
     "vue-custom-scrollbar": "^1.2.0",
     "vue-youtube": "^1.3.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymmy1/Future_World.git"
+  },
+  "keywords": [
+    "Air",
+    "Pollution",
+    "Electric",
+    "Cars",
+    "list",
+    "Hybrid",
+    "NASA",
+    "Global",
+    "Warming",
+    "Future",
+    "World",
+    "ymmy",
+    "ymmy1",
+    "Oleg",
+    "Nosyrev"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ymmy1/Future_World/issues"
+  },
+  "homepage": "https://github.com/ymmy1/Future_World#readme"
 }
