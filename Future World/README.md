@@ -5,7 +5,7 @@
 ## Build Setup
 
 ``` bash
-# install dependenciess
+# install dependenciesss
 $ yarn install
 
 # serve with hot reload at localhost:3000
